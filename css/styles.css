@@ -1,0 +1,203 @@
+:root {
+    --primary-fonts: 'afacad flux', sans-serif;
+    --secondary-fonts: 'qwitcher grypen', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: var(--primary-fonts);
+}
+
+body {
+    font-family: var(--primary-fonts);
+}
+
+footer {
+    font-family: var(--primary-fonts);
+    height: 200px;
+    width: auto;
+}
+
+/* Header */
+
+.header {
+    text-decoration: none;
+    background-color: white;
+}
+
+.header_container {
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header_nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header_nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    height: 20px;
+    width: auto;
+}
+
+.header_nav a {
+    text-decoration: none;
+}
+
+.nav:focus {
+    cursor: pointer;
+}
+
+/* Butoane */
+
+.button {
+    font-family: var(--primary-fonts);
+    text-decoration: none;
+    list-style: none;
+}
+
+.button_nav {
+    color: black;
+}
+
+.button_nav:hover {
+    color: gold;
+}
+
+.button_nav:focus {
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    color: burlywood;
+}
+
+.button:focus {
+    cursor: pointer;
+}
+
+/* Incurajari */
+
+.incurajari {
+    border: 2px solid white;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    background-image: url(/images/logo-smart-med.jpg);
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    height: 800px;
+    width: auto;
+}
+
+.incurajari_st {
+    font-weight: 600px;
+}
+
+/* Motto */
+
+.motto {
+    border: 2px solid white;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    background-image: url(/images/med-pol-law.jpg);
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    height: 800px;
+    width: auto;
+}
+
+.motto_titel {
+    height: auto;
+    width: auto;
+    color: antiquewhite;
+    font-weight: 1500px;
+}
+
+.motto_st {
+    font-family: var(--secondary-fonts);
+    font-weight: 1500px;
+}
+
+.alegere {
+    height: 400px;
+    width: auto;
+    background-image: url(/images/smart-goals.webp);
+    border: 2px solid white;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    background-position: center;
+}
+
+.titlu {
+    align-items: center;
+    color: black;
+}
+
+.text {
+    align-items: center;
+    color: black;
+}
+
+.alegerea_ta {
+    font-weight: 500px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.carduri .flashcard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.flashcard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.same {
+    line-height: 25px;
+}
+
+.para {
+    color: cadetblue;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: antiquewhite;
+    }
+}
